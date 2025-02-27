@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://mightygoodness.com/wp-content/uploads/2022/02/red-heart-in-the-hand-of-a-physician-how-is-vitamin-e-thought-to-play-a-role-in-reducing-the-risk-of-heart-disease-ss.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 20px;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #dc3545;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 35px;
+    margin: 0;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-section {
+    width: 48%;
+    padding: 10px;
+}
+
+.form-section label {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
