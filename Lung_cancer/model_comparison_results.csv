@@ -1,0 +1,6 @@
+Model,Training Accuracy,Testing Accuracy,Precision,Recall,F1 Score
+Random Forest,1.0000,0.9194,0.9623,0.9444,0.9533
+Gradient Boosting,1.0000,0.8710,0.9259,0.9259,0.9259
+SVM,0.9474,0.8548,0.8947,0.9444,0.9189
+Logistic Regression,0.9433,0.9032,0.9444,0.9444,0.9444
+AdaBoost,0.9312,0.9194,0.9455,0.9630,0.9541
